@@ -4,21 +4,21 @@
    "content":{
       "metaDataVersion":"1.3.0",
       "name":"com.microchip.mplabx.project.mchv230vac1.5kw-33ck256mp508-acim-an1206-foc-pll",
-      "version":"x.x.x",
-      "displayName":"xxxxxxxxxxxxxxx",
+      "version":"1.0.0",
+      "displayName":"AN1206 Field Oriented Control of Induction Motor using PLL estimator: MCHV-230VAC-1.5kW and dsPIC33CK256MP508 MC DIM",
       "projectName":"mchv230vac1.5kw-33ck256mp508-acim-an1206-foc-pll",
-      "shortDescription":"xxxxxxxxxxxxxxx",
+      "shortDescription":"This application code example demonstrates the Sensorless Field Oriented Control and V/F control of a 3-phase Induction Motor using the MCHV-230VAC-1.5kW Development Board and the dsPIC33CK256MP508 Motor Control Dual In-line Module(DIM). The algorithm incorporates voltage constraint-based field weakening control and uses Back-EMF based PLL estimator for speed and position estimation.",
       "ide":{
          "name":"MPLABX",
-         "semverRange":">=5.40.0"
+         "semverRange":">=6.20"
       },
       "compiler":{
-         "name":"XC16",
-         "semverRange":"^1.50.0"
+         "name":"XC-DSC",
+         "semverRange":">=3.10"
       },
       "dfp":{
-         "name":"xxxxxxxxxxxxxxx",
-         "semverRange":">=x.x.x"
+         "name":"dsPIC33CK-MP_DFP",
+         "semverRange":">=1.13.366"
       },
 	  "configurator": {
          "name": "MCC",
@@ -30,13 +30,21 @@
          "content":{
             "metaDataVersion":"1.0.0",
             "category":"com.microchip.device",
-            "name":"xxxxxxxxxxxxxxx",
+            "name":"dsPIC33CK256MP508",
             "versionRange":"*"
          }
       },
       "keywords":[
-         "GPIO",
-         "UART"
+         "ADC",
+         "PWM",
+         "OPAMP",
+         "Motor Control",
+         "ACIM",
+         "Sensorless Control",
+         "PLL Estimator",
+         "FOC",
+	      "Field Weakening",
+         "dsPIC"
       ]
    }
 }
