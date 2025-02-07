@@ -48,7 +48,7 @@
 #include "xc.h"
 #include "motor_control_types.h"
 
-#include "PI.h"
+#include "pi.h"
 #include "system.h"
 
 // </editor-fold>

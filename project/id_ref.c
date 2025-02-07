@@ -59,7 +59,7 @@
 
 #include "estim.h"
 
-#include "PI.h"
+#include "pi.h"
 
 // <editor-fold defaultstate="expanded" desc="DEFINITIONS/MACROS ">
 #undef ID_REFERNCE_FILTER_ENABLE /* Id reference filter enable flag */

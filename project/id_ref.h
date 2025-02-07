@@ -54,7 +54,7 @@ extern "C" {
 
 #include <stdint.h>
 #include "measure.h"
-#include "PI.h"
+#include "pi.h"
  
     
 typedef struct
