@@ -41,7 +41,7 @@ To clone or download this application firmware on GitHub,
 This section describes the hardware setup required for the demonstration.
 Refer ["Motor Control High Voltage 230VAC-1.5kW Development Board User's Guide"](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/UserGuides/Motor-Control-High-Voltage-230VAC-1.5kW-Dev-Board-Users-Guide-DS70005576.pdf), before operating the unit.
 > **Note:** </br>
->In this document, hereinafter the MCHV-230V AC-1.5kW Development Board is referred as **development board**.
+>In this document, hereinafter the MCHV-230VAC-1.5kW Development Board is referred as **development board**.
 
 1. Motor currents are amplified by the amplifiers internal to the dsPIC33CK256MP508 on the DIM. The firmware and DIM are configured to sample and convert internal amplifier outputs (**'internal op-amp configuration'**) by default to measure the motor currents needed to implement FOC. **Table-1** summarizes the jumper resistors(0R) on the DIM for **‘internal op-amp configuration’**.
 
