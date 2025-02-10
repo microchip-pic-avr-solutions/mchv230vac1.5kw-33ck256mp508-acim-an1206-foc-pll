@@ -48,37 +48,41 @@ Refer ["Motor Control High Voltage 230VAC-1.5kW Development Board User's Guide"]
      <p align="left" >
      <img  src="images/Table_internalopamp.png"width="800"/></p>
 
-2. Ensure the development board is not powered and it is fully discharged. Verify the LEDs **LD1**(Green) and **LD4**(Red) on Power Factor Correction Board and **LD1**(Green) on Motor Control Inverter Board are not glowing.
+2. The internal amplifier gains need to be modified to measure a peak current of **5A**. **Table-2** summarizes the changes in the resistor values for reconfiguring the internal amplifier gain.
+     <p align="left" >
+     <img  src="images/internal_amp_gain.png"width="800"/></p>
+
+3. Ensure the development board is not powered and it is fully discharged. Verify the LEDs **LD1**(Green) and **LD4**(Red) on Power Factor Correction Board and **LD1**(Green) on Motor Control Inverter Board are not glowing.
 
      <p align="left" >
      <img  src="images/MCHVnotpowered.jpg" width="600"></p>
 
-3. Remove the thumb screw and open the top cover of the enclosure. Insert the **dsPIC33CK256MP508 Motor Control DIM** into the DIM Interface **connector J2** on the development board. Make sure the DIM is placed correctly and oriented before going ahead. Close the top cover of the enclosure and secure it with the thumb screw.
+4. Remove the thumb screw and open the top cover of the enclosure. Insert the **dsPIC33CK256MP508 Motor Control DIM** into the DIM Interface **connector J2** on the development board. Make sure the DIM is placed correctly and oriented before going ahead. Close the top cover of the enclosure and secure it with the thumb screw.
 
      <p align="left" >
      <img  src="images/dimconnected.png" width="600"/></p>
 
 
 
-4. Connect the 3-phase wires from the motor to **A**, **B**, and **C** (no specific order) of the connector J13(**MOTOR**) on the development board.
+5. Connect the 3-phase wires from the motor to **A**, **B**, and **C** (no specific order) of the connector J13(**MOTOR**) on the development board.
 
      <p align="left" >
       <img  src="images/motorconnection.png" width="600"/></p>
 
-5. Power the PFC board from a controlled AC source by applying voltage of 230V<sub>ac rms</sub> through IEC connector **connector J1** provided on the PFC board.
+6. Power the PFC board from a controlled AC source by applying voltage of 230V<sub>ac rms</sub> through IEC connector **connector J1** provided on the PFC board.
 
       <p align="left">
       <img  src="images/mchv_input.png" width="600"/></p>
 > **Note:** </br>
 >The Development Board is designed to operate in the 90 to 230V<sub>ac rms</sub> voltage range with a maximum input current of 10A<sub>rms</sub>. In the Input AC voltage range of 90 to 150V<sub>ac rms</sub>, the maximum input power to the Development Board must be derated (<1500W) to maintain the input current through the socket to less than or equal to 10A<sub>rms</sub>.
 
-6. The development board has an on-board programming tool called the Isolated PKoB4 Daughter Board. To use the on-board programmer, connect a micro-USB cable between the Host PC and connector J11(**PROGRAM**) on the development board.
+7. The development board has an on-board programming tool called the Isolated PKoB4 Daughter Board. To use the on-board programmer, connect a micro-USB cable between the Host PC and connector J11(**PROGRAM**) on the development board.
       <p align="left">
       <img  src="images/program.png" width="400"/></p>
 > **Note:** </br>
 > Use only **shielded micro-USB** cables intended for data transfer.
 
- 7. To establish serial communication with the host PC, connect a micro-USB cable between the host PC and connector J8(**USB-UART**) on the development board. 
+ 8. To establish serial communication with the host PC, connect a micro-USB cable between the host PC and connector J8(**USB-UART**) on the development board. 
       <p align="left">
       <img  src="images/usb_uart.png" width="400"/></p>
 
